@@ -1,0 +1,90 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Compiled addons
+build/Release/
+
+# TypeScript
+*.tsbuildinfo
+
+# Bundler caches
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.cache/
+
+# Framework build dirs
+.next/
+out/
+.nuxt/
+dist/
+public/
+.cache/
+
+# Static site generators
+.gatsby/
+.vuepress/dist/
+
+# Serverless
+.serverless/
+
+# Misc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment files
+.env
+.env.*.local
+
+# Yarn
+.yarn-integrity
+.pnp.cjs
+.pnp.loader.mjs
+
+# DynamoDB Local
+.dynamodb/
+
+# TernJS
+.tern-port
+
+# Le package lock mdrrrr
+package-lock.json
